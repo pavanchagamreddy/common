@@ -1,0 +1,17 @@
+<plugin>
+				<groupId>org.mule.tools.maven</groupId>
+				<artifactId>mule-maven-plugin</artifactId>
+				<version>${mule.maven.plugin.version}</version>
+				<extensions>true</extensions>
+				<configuration>
+					<cloudHubDeployment>
+					</cloudHubDeployment>
+					<sharedLibraries>
+						<sharedLibrary>
+							<groupId>23c</groupId>
+							<artifactId>common-properties</artifactId>
+						</sharedLibrary>
+					</sharedLibraries>
+					<classifier>mule-application</classifier>
+				</configuration>
+			</plugin>
